@@ -10,7 +10,6 @@ const config = new Configuration({
 });
 
 const openai = new OpenAIApi(config);
-const filePath = path.resolve(__dirname, "index.html");
 
 //Setup Server:
 const app = express();
